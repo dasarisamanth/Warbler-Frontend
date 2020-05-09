@@ -1,0 +1,31 @@
+body{
+  background: url(./images/background.png);
+  
+  background-size: cover;
+}
+
+
+
+#background{
+  background: url(./images/nav-bg.png);
+  height:3.5rem;
+  
+}
+
+#background a {
+  color: black;
+}
+
+#background a:hover{
+  color: white;
+}
+
+#message .list-group-item{
+  display: flex;
+  align-items: flex-start;
+  padding: 7px 20px 12px;
+}
+
+#message:not(.no-hover) .list-group-item:hover{
+background-color: #e6ecf0;
+}
